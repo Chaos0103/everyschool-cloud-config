@@ -1,1 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: '{cipher}'
+    url: '{cipher}'
+    username: '{cipher}'
+    password: 
 
+token:
+  expiration_time: 0
+  secret: '{cipher}'
+
+gateway:
+  ip: '{cipher}'
+
+mail:
+  username: '{cipher}'
+  password: '{cipher}'
