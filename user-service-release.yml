@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: '{cipher}AQAg1c6vQZDvwQ9NV7kIHXpoFSFS1zU/zDUN6WfDcNAIpVVzyDQrBXx/kxBrhyX+A8I36gJmhpPAG4ulK8dR/7Zcdr1/QIVrVz+bkk1wmbNo9GkWoGZHqA/OCC3Ap4mTj4VHoqxF+9sdGtFcS8usJzHLPVuqsoUM6BL9PFocD1+kSdxASrBEBNcZiNRlYD1mvI2o6WcDW6Q4YY701dc+mzwoeY/dabmZjYNRSxpmctYINud81P/hOkqx9XAKNA6JeeWUuGpcyTOMqjG4hOv83mnUO4KlvbkTDhAXnJToUXVHL05phUKZlXMInq57tNeOoH8GXt3f5OJRj7FO/Z9KCWRRSO8vCapTe0komlnP3JfNSmWwzhvdRruH8KAnVCl9OkNA1q5/Al7vwOSQAuvjI6mqBmcSi86u/aBg+4JUIO7RLZ2PPko734CyXwTH6BbE7e5r1Xkraj0U9NtXcKaCY1MLourEjfVnYiT/8riK/+vhqQvpm3VAlKcfHNpMp6MecpGrLFW6EEswVgsaZXYTSTqm'
+    username: '{cipher}AQB6ZVbZpKcs1hMk21etLxW10HOyzsNxAIafS5BFFsEDTn9kdc+kR6n0BRGd4rk1CEqfIKzLzIYdsZqh1SzfVza/yoYRszUPL2P0UhszGZg+E+ZzTyrbKWK40qbU+ONwp6obCNWblzsFh0EoQEEG3zwWCUTPnRDZuwVM+cbJgf9cIOH2wNS8hhiFAUrRAMN1BjnoIpWy6GnIIZwEIDmBnq56mVhtECDgjnW9iHxGY3D2ZKlkSrB9oqgnDFvQDubEUxdsBBP5apeIT0ykJn2AnR+AjjCKmeoUoiRUJn5eShASX/RNq6MMoJNhxsJfV6xWFZUUZwZAF4afkUPq98T47evVd3vLeQfqpYE+Ib4lzKcsbUQe1fCR1LvzXrCyxJ+Dvuk='
+    password: '{cipher}AQCDi+/efAoroTNSuBTnohAqeVKLhfVmLergh0xGPLErmsyYggFlVigmVgR6uz77U6cF2IhmGe8IMTsCVxdfdQniNvPoNWvExMoVzHmfX5pyysFc6wAeH/mTNVBF2xdC5Ur44wuz6FAmeRwlqgA5pzZ8MMb3EKFdJgyaT19XFl8fcEQ2hst6Zy5AGegMdr+V8gtG8GTyxr9aPmbLEhUZYAoQ4BT9Ax16V9H3bTgpkk/TgjV3/3sAfsPjyMTyrbW81jmjxYxwnZFI5rKnDfDpCvX+kmUI6b7Y/vzeoiUJIPdLcUIBzecLRo+0H7u/zKdYeCyTmBJsikwyGk/J01F5N919v9JCJnm9rwB07UHxg0TD0xIBOqpxHZgOISU9ZucIz/A='
+
+token:
+  expiration_time: 0
+  secret: '{cipher}'
+
+gateway:
+  ip: '{cipher}'
+
+mail:
+  username: '{cipher}'
+  password: '{cipher}'
