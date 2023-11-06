@@ -17,7 +17,15 @@ spring:
     url: '{cipher}AQB9E/6xCyA6ZS8APxljl5+UZUtEWdltETBcK+Y3iLXwcvD6f+c12Xbvp0hkJYC3zZTILvRs1LnuHDRUsAzl08efaX/5VMvkMBldEMNTdk/OHT81FOZAPzRyfO6T2T7Mx4TrFfa/v0E/0Cqwx8Lit1fXIYy/sGSqZCiyreFr9MmusOXiGjPp60zm3H+NABCC7mFGmP3PRzhpDkpU264iAsAF7QL4DenmFE1hJH+NBm13rrpTh9kNPJ3eCmqYKzEdE6TVo2xXGorRZu2A8eTT6YBr5kzMLrjS2sxwPkZwlYrKyOETRXSCQfRQoU3+4RqJ4iUziT8EU8p2toK5H/dAkuBLQMgAnBWrADVqYPj+k+eUMyy65l2t4NxqgoXC2BSd8ID1fegFGBCjjMFrPXK8KKMksu73HFLw8iARffpzaZ5PYjhVIlBZTZgLur65JDc1Jz0B5d0v1/XwY6kNzM7+TEct0hXc5kLx9wEb1LqZgWpntomHkdX8PGaRmEibxw6+cBAPkMja68ynEZN7DcxGUcIEJ2YrPimrMO/T9en+B/tTFw=='
     username: '{cipher}AQBDGEMQ+lOuGKfwTxRieCgx/OwoST7vs43nzC/MW1mbydtW5B9M6Q8ZfDCxfklzCKk1gfIGngbTPURFW3q5/bKs/p5oyf5vmVHP/8Iv/NJmDdso+VFr/x3bUBOch2RR1Y1s3iJToJvMO/cYdOocwrfrN9n6gGuRXWevCU25Wuz3+BaAgDqBGogZMNvEnvap23J3ahyVgzNw8L5ZfKnytUJuMBSJzxvff5CcvtKVMyzX+xcEJ+m4Q7cbuZt0yYmEc70tq8YgS046etzZcUYzuosJfmS4eS8X0Ny8iVGHkcOX9emxlVgaBFisqduVLiMGOVuDwG2ojZDt2pnHMLAzn7gqmfn5jaxk6hEYGn2tngWfu3SAxObzO+5EvhZaLU93aSs='
     password: '{cipher}AQCDi+/efAoroTNSuBTnohAqeVKLhfVmLergh0xGPLErmsyYggFlVigmVgR6uz77U6cF2IhmGe8IMTsCVxdfdQniNvPoNWvExMoVzHmfX5pyysFc6wAeH/mTNVBF2xdC5Ur44wuz6FAmeRwlqgA5pzZ8MMb3EKFdJgyaT19XFl8fcEQ2hst6Zy5AGegMdr+V8gtG8GTyxr9aPmbLEhUZYAoQ4BT9Ax16V9H3bTgpkk/TgjV3/3sAfsPjyMTyrbW81jmjxYxwnZFI5rKnDfDpCvX+kmUI6b7Y/vzeoiUJIPdLcUIBzecLRo+0H7u/zKdYeCyTmBJsikwyGk/J01F5N919v9JCJnm9rwB07UHxg0TD0xIBOqpxHZgOISU9ZucIz/A='
-
+  jpa:
+    hibernate:
+      ddl-auto: update  # 'update' is for development. Use 'validate' for production.
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        highlight_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
 token:
   expiration_time: 864000000
   secret: '{cipher}AQBbT9odl8w/4MqreRQqVj3XiZSjOnSenT5qgFHJYUqQAYFwn8JmLY78VUrxoRlVcq4+WhQTEl+ev545IoI7NepbMpBQMz9/LjudUZzuDy9CkZaj4fFmk/IPWxx73uT39ycWF1jZ4XJdKlzgLztMlAvlzLFQvmXZZYfMH7LSlr5Tag+T+TK6OBPTOHgpMrPeXJzrAis2X4Qi/6JL1owSIe/PiZJhOvZcAhWACcz0fJs4bZpntDUCTRn4LuWwiWg21KsVacse68J8vDmcjAJaaHAsEZIueVWgWQXsEqq2kmd7Ds2UGq9PER21BZguED0C5G4LQudZiqNTSjZcR4TR5wvYMs0ZcW5XvRINajg3HoNFBgEVXUi86Ikx999f1tTHjnXrTlqzJ7wSVPKyIiFn106kpPAkmFwcE5uhrETSi6oIGkpRUJbQnloXiQACNEe+nq6miv3bAiHIhHlshYwzEOFa'
